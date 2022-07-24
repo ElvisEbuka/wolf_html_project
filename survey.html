@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> Survey Form </title>
+</head>
+<body>
+    <form>
+            <label for="name">Enter your full name: </label> <br>
+            <input type="text" placeholder="" name="name" required /> <br />
+    
+        </div>
+        <div>
+            <label for="email">Enter your email: </label> <br>
+            <input type="email" placeholder="" name="name" required /> <br />
+        </div>
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" placeholder="Enter your age" name="name" required />
+
+            <hr>
+        </div>
+
+        <div>
+            <label for="role">Choose A Role That Best Describes You</label>
+            <select name="select-role" id="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="gamer">Gamer</option>
+                <option value="programmer">Programmer</option>
+            </select>
+            <hr>
+        </div>
+
+
+
+        <div>
+            <label for="rating">Would You Recommend Our Product To A Friend</label>
+            <input type="radio" name="rating" value="never"/>Never                                                         
+            <input type="radio" name="rating" value="maybe"/>Maybe
+            <input type="radio" name="rating" value="likely"/>likely
+            <input type="radio" name="rating" value="definitely"/>Definitely
+            <hr>
+        </div>
+
+
+
+        <div>
+            <label for="review">Select Things That You LIke About Our Project </label>
+            <input type="checkbox" name="rating" value="UI"/>UI
+            <input type="checkbox" name="rating" value="features"/>features
+            <input type="checkbox" name="rating" value="service"/>service
+            <input type="checkbox" name="rating" value="simpleness"/>simpleness
+            <hr>
+        </div>
+
+        <div>
+            <label for="remarks">Remarks</label>
+
+            <textarea name="remark" id="remark" cols="20" rows="8" placeholder="Tell us how we can improve"></textarea>
+            <hr>
+        </div>
+
+        <div>
+            <button id="btn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
